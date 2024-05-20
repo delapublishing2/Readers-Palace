@@ -148,12 +148,14 @@
 }
 
  .author-spotlight h2 {padding-top: 2rem;
-padding-bottom: 2rem;}
+padding-bottom: 2rem;
+font-size: 40px}
 
 .book-details p {
     margin-bottom: 20px;
     text-align: left;
     padding-bottom: 2rem;
+    font-size: large;
 }
 
   /* Newsletter section styles */
@@ -167,12 +169,14 @@ padding-bottom: 2rem;}
   }
   
   .newsletter h2 {
-    font-size: 24px;
+    font-size: 40px;
     margin-bottom: 20px;
+    font-size: 40px;
   }
   
   .newsletter p {
     margin-bottom: 30px;
+    font-size: large;
   }
   
   /* Blog section styles */
@@ -181,12 +185,13 @@ padding-bottom: 2rem;}
   }
   
   .blog h2 {
-    font-size: 24px;
+    font-size: 40px;
     margin-bottom: 20px;
   }
   
   .blog p {
     margin-bottom: 20px;
+    font-size: large;
   }
   
   .blog-previews {
