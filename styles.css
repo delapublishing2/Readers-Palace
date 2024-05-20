@@ -95,16 +95,18 @@
     font-size: 40px;
     margin-bottom: 20px;
     padding-top: 2rem;
-    padding-bottom: 2rem;
   }
 
   .about .divider {
-    width: 50px; /* Adjust width of divider */
+    width: 200px; /* Adjust width of divider */
     height: 2px; /* Adjust height of divider */
     background-color: #000; /* Adjust color of divider */
-    margin: 0 auto 20px; /* Adjust margin for positioning */ }
+    margin: 0 auto 20px; /* Adjust margin for positioning */
+ }
+    
   
   .about p {
+    padding-top: 2rem;
     margin-bottom: 20px;
     margin-left: 10rem;
     margin-right: 10rem;
