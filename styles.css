@@ -172,11 +172,15 @@ font-size: 40px}
     font-size: 40px;
     margin-bottom: 20px;
     font-size: 40px;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
   }
   
   .newsletter p {
     margin-bottom: 30px;
     font-size: large;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
   }
   
   /* Blog section styles */
@@ -187,11 +191,16 @@ font-size: 40px}
   .blog h2 {
     font-size: 40px;
     margin-bottom: 20px;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
   }
   
   .blog p {
     margin-bottom: 20px;
     font-size: large;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    margin: 1rem;
   }
   
   .blog-previews {
