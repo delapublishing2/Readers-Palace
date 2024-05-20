@@ -92,8 +92,10 @@
   }
   
   .about h2 {
-    font-size: 24px;
+    font-size: 40px;
     margin-bottom: 20px;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
   }
   
   .about p {
@@ -134,11 +136,16 @@
 .book-details {
     max-width: 600px;
     margin: 0 auto;
+   
 }
+
+ .author-spotlight h2 {padding-top: 2rem;
+padding-bottom: 2rem;}
 
 .book-details p {
     margin-bottom: 20px;
     text-align: left;
+    padding-bottom: 2rem;
 }
 
   /* Newsletter section styles */
