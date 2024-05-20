@@ -35,13 +35,14 @@
  
     .hero {
         position: relative;
-        background-image: url('https://res.cloudinary.com/dhriwtfjq/image/upload/v1711762095/IMG_1716_zbgq3c.jpg');
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://res.cloudinary.com/dhriwtfjq/image/upload/v1711762095/IMG_1716_zbgq3c.jpg');
         background-size: cover;
         background-position: center;
         color: #fff;
         text-align: center;
         padding: 12rem 12rem;
     }
+    
     
     .hero::before {
         content: '';
@@ -64,6 +65,7 @@
     margin-bottom: 20px;
     padding: 2rem;
     margin: 1rem;
+
   }
   
   .hero p {
@@ -78,7 +80,7 @@
     padding-bottom: 2rem;
     margin-left: 3rem;
     margin-right: 3rem;
-    z-index: 1;
+   
   }
   
   .cta-btn {
