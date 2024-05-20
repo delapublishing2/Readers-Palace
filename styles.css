@@ -12,35 +12,60 @@
   
   /* Header styles */
 /* Header styles */
+/* Header styles */
 header {
-    background-color: black;
-    color: #f1c40f;
+    background-color: #333;
+    color: #fff;
     padding: 2rem;
-    display: flex; /* Use flexbox for layout */
-    justify-content: space-between; /* Align items horizontally */
-    align-items: right; /* Align items vertically */
 }
 
-nav {
-    flex: 1; /* Allow navigation links to fill remaining space */
-    text-align: right; /* Align navigation links to the left */
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-nav a {
-    color: #f1c40f;
-    text-decoration: none;
+.logo img {
+    width: 150px; /* Adjust size as needed */
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
     margin-right: 1rem;
-    font-size: large;
 }
 
-.newsletter-btn {
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none; }
+
+    .newsletter-btn  {
+        background-color: #f1c40f;
+        color: #333;
+        padding: 1rem 1rem;
+        border-radius: 3rem;
+        text-decoration: none;
+    }
+
+
+.newsletter-btn a {
     background-color: #f1c40f;
     color: #333;
-    text-decoration: none;
     padding: 1rem 1rem;
-    border-radius: 3rem; /* Remove margin to the right */
-    margin-left: 45rem;
+    border-radius: 3rem;
+    text-decoration: none;
 }
+
+
 
   
   
@@ -264,7 +289,7 @@ footer {
 }
 
 .footer-logo img {
-    width: 150px; /* Adjust size as needed */
+    width: 100px; /* Adjust size as needed */
 }
 
 .footer-links ul {
