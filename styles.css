@@ -11,24 +11,38 @@
   }
   
   /* Header styles */
-  header {
-    background-color: #333;
-    color: #fff;
-    padding: 10px;
-  }
-  
-  nav a {
-    color: #fff;
+/* Header styles */
+header {
+    background-color: black;
+    color: #f1c40f;
+    padding: 2rem;
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-between; /* Align items horizontally */
+    align-items: center; /* Align items vertically */
+}
+
+nav {
+    flex: 1; /* Allow navigation links to fill remaining space */
+    text-align: left; /* Align navigation links to the left */
+}
+
+nav a {
+    color: #f1c40f;
     text-decoration: none;
-    margin-right: 10px;
-  }
-  
-  .newsletter-btn {
+    margin-right: 1rem;
+    font-size: larger;
+}
+
+.newsletter-btn {
     background-color: #f1c40f;
     color: #333;
-    padding: 5px 10px;
-    border-radius: 5px;
-  }
+    text-decoration: none;
+    padding: 1rem 1rem;
+    border-radius: 3rem; /* Remove margin to the right */
+    margin-left: 47rem;
+}
+
+  
   
   /* Hero section styles */
   .bg-color {background-color: black; 
@@ -116,6 +130,7 @@
   /* Author Spotlight section styles */
   .author-spotlight {
     padding: 50px 20px;
+    padding-bottom: 9rem;
 }
 
 .container {
@@ -136,7 +151,9 @@
 }
 
 .image-column img {
-    max-width: 200%;
+    max-width: 100%;
+    height: 50rem;
+    width: 100rem;
     display: block;
     margin: 0 auto;
 }
