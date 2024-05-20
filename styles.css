@@ -18,12 +18,12 @@ header {
     padding: 2rem;
     display: flex; /* Use flexbox for layout */
     justify-content: space-between; /* Align items horizontally */
-    align-items: center; /* Align items vertically */
+    align-items: right; /* Align items vertically */
 }
 
 nav {
     flex: 1; /* Allow navigation links to fill remaining space */
-    text-align: left; /* Align navigation links to the left */
+    text-align: right; /* Align navigation links to the left */
 }
 
 nav a {
@@ -229,7 +229,7 @@ font-size: 40px}
     display: flex;
     justify-content: space-between;
     margin-top: 30px;
-    padding-top: 8rem;
+    padding-top: 8rem;;
   }
   
   .blog-preview {
@@ -248,4 +248,65 @@ font-size: 40px}
     text-align: center;
   }
  
-  
+  /* Footer styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 2rem;
+    text-align: center;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.footer-logo img {
+    width: 150px; /* Adjust size as needed */
+}
+
+.footer-links ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-links ul li {
+    display: inline-block;
+    margin-right: 1rem;
+}
+
+.footer-links ul li:last-child {
+    margin-right: 0;
+}
+
+.footer-links ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-social ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-social ul li {
+    display: inline-block;
+    margin-right: 1rem;
+}
+
+.footer-social ul li:last-child {
+    margin-right: 0;
+}
+
+.footer-social ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-bottom {
+    margin-top: 1rem;
+}
