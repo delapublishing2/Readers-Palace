@@ -30,7 +30,7 @@ nav a {
     color: #f1c40f;
     text-decoration: none;
     margin-right: 1rem;
-    font-size: larger;
+    font-size: large;
 }
 
 .newsletter-btn {
@@ -39,7 +39,7 @@ nav a {
     text-decoration: none;
     padding: 1rem 1rem;
     border-radius: 3rem; /* Remove margin to the right */
-    margin-left: 47rem;
+    margin-left: 45rem;
 }
 
   
