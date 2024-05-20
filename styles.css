@@ -30,6 +30,8 @@
   }
   
   /* Hero section styles */
+  .bg-color {background-color: black; 
+    z-index: 3; }
  
   .hero {
     
@@ -39,7 +41,8 @@
     color: #fff;
     text-align: center;
     padding: 12rem 12rem;
-    background-color: rgba(0, 0, 0, 1); /* Black tint */
+   
+
   }
   
   .hero h1 {
@@ -64,6 +67,7 @@
     padding-bottom: 2rem;
     margin-left: 3rem;
     margin-right: 3rem;
+    z-index: 1;
   }
   
   .cta-btn {
