@@ -106,25 +106,41 @@
   /* Author Spotlight section styles */
   .author-spotlight {
     padding: 50px 20px;
-    text-align: center;
-  }
-  
-  .book-details {
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.text-column,
+.image-column {
+    flex: 1;
+    padding: 0 20px;
+}
+
+.text-column {
+    text-align: left;
+}
+
+.image-column img {
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+.book-details {
     max-width: 600px;
     margin: 0 auto;
-    text-align: left;
-  }
-  
-  .book-details img {
-    max-width: 100%;
-    margin-bottom: 20px;
-  }
-  
-  .book-details p {
+}
+
+.book-details p {
     margin-bottom: 20px;
     text-align: left;
-  }
-  
+}
+
   /* Newsletter section styles */
   .newsletter {
     background-image: url('newsletter-background.jpg');
