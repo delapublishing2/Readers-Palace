@@ -32,12 +32,21 @@ nav a {
 }
 
 .header-text {
+    font-family: "PT Serif", serif;
+    font-weight: 700;
+    font-style: normal;
     font-size: 2.5rem;
     margin-bottom: 1rem;
     padding: 1rem;
 }
 
 .hero-text {
+    font-family: "Signika", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-variation-settings:
+      "GRAD" 0;
     font-size: 1.2rem;
     margin-bottom: 2rem;
     padding-bottom: 2rem;
