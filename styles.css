@@ -27,8 +27,9 @@ nav a {
     background-size: cover;
     background-position: center;
     color: #fff;
-    padding: 8rem;
+    padding: 4rem;
     text-align: center;
+    background-color: rgba(0, 0, 0, 0.7); /* Black tint */
 }
 
 .header-text {
