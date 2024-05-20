@@ -153,10 +153,9 @@ font-size: 40px}
 
 .book-details p {
     margin-bottom: 20px;
-    text-align: center;
+    text-align: left;
     padding-bottom: 2rem;
     font-size: large;
-    padding: 2rem;
 }
 
   /* Newsletter section styles */
@@ -219,6 +218,7 @@ font-size: 40px}
   .blog-preview {
     text-align: center;
     max-width: 300px;
+    padding: 2rem;
   }
   
   .blog-preview img {
