@@ -30,9 +30,7 @@
   }
   
   /* Hero section styles */
-  .bg-color {background-color: black;
-   
-}
+ 
   .hero {
     
     background-image: url('https://res.cloudinary.com/dhriwtfjq/image/upload/v1711762095/IMG_1716_zbgq3c.jpg');
@@ -41,8 +39,7 @@
     color: #fff;
     text-align: center;
     padding: 12rem 12rem;
-    opacity: 50%;
-    
+    background-color: rgba(0, 0, 0, 1); /* Black tint */
   }
   
   .hero h1 {
